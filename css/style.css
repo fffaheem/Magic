@@ -288,9 +288,9 @@ html ,body {
 
 
 
-#secondcardH1{
+/* #secondcardH1{
     height: 254px;
-}
+} */
 #secondcardH1 h1{
     margin: 10px;
     letter-spacing: 5px;
