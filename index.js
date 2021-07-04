@@ -1,5 +1,7 @@
 console.log("Hello")
-
+// -----------------------------------------------------------------------------
+// --------------------------Style.js----------------------------------------
+// -----------------------------------------------------------------------------
 let socialMedia = document.getElementById("aSocialMedia")
 let socialMediaUl = document.querySelector(".socialMediaUl")
 document.addEventListener('click',(e)=>{
@@ -12,7 +14,7 @@ document.addEventListener('click',(e)=>{
         socialMediaUl.classList.remove("socialMediaDisplay")
     }
 })
-
+// ----------------------------------------------------------------------------------------------
 
 
 shownotes()
