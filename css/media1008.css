@@ -1,13 +1,25 @@
-/* html,body{
+html,body{
     font-size: 37.5%;
-    background-color: orange;
-} */
+    /* background-color: olivedrab; */
+}
+
+
+#navRight input{
+ 
+    padding: 1rem 1.4rem;
+    font-size: 2.6rem;
+    width: 80%;
+   
+}
+#navRight button{
+    display: none;
+}
 
 #container {
     /* height: 80.0rem; */
     /* border: .2rem solid red; */
     display: grid;
-    grid-template-rows: 11.0rem 55.0rem 14.0rem auto;
+    grid-template-rows: 9.0rem 43.0rem 14.0rem auto;
     grid-template-columns: 7.0rem 1fr 1fr 7.0rem ;
     grid-template-areas:
         "firstHead firstHead firstHead firstHead"
@@ -18,7 +30,7 @@
 }
 
 #input{
-    width: 154rem;
+    width: 130rem;
 }
 .inputTxt{
     font-size: 3.1rem;
@@ -26,7 +38,7 @@
 
 #input div textarea{
     height: 67%;
-    width:144rem
+    width:120rem
 }
 
 .button{
@@ -43,5 +55,5 @@
 
 .inputCard{
     font-size: 2.5rem;
-    width: 33.98rem;
+    width: 34rem;
 }
