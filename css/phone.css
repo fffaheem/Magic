@@ -4,6 +4,12 @@
 
 /* navigation left */
 
+html,body{
+    /* height: 2624px;
+    width: 1264px; */
+    zoom: 0.545;
+}
+
 #nav {
     
    
