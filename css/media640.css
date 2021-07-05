@@ -1,0 +1,65 @@
+html,body{
+    font-size: 37.5%;
+    /* background-color: rgb(226, 140, 140); */
+}
+
+
+#navRight input{
+ 
+    padding: 1rem 1.4rem;
+    font-size: 2.6rem;
+    width: 80%;
+   
+}
+#navRight button{
+    display: none;
+}
+
+#container {
+    /* height: 80.0rem; */
+    /* border: .2rem solid red; */
+    display: grid;
+    grid-template-rows: 10.0rem 39.0rem 11rem auto;
+    grid-template-columns: 3rem 1fr 1fr 3rem;
+    grid-template-areas:
+        "firstHead firstHead firstHead firstHead"
+        "firstCard firstCard firstCard firstCard"
+        ". secondHead secondHead  ."
+        ". secondCard secondCard .";
+
+}
+
+#firstHead{
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+
+#input{
+    width: 100rem;
+}
+.inputTxt{
+    font-size: 2.6rem;
+}
+
+#input div textarea{
+    height: 58%;
+    width:95rem
+}
+
+.button{
+    width: 14rem;
+    padding: 0.3rem 0.5rem;
+}
+
+#secondHead{
+    font-size: 3rem
+}
+
+#secondcardH1 h1{
+    font-size: 2.6rem;
+}
+
+.inputCard{
+    font-size: 2.5rem;
+    width: 45.9rem;
+}

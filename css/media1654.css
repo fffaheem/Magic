@@ -1,0 +1,17 @@
+html,body{
+    font-size: 56.25%;
+    /* background-color: aqua; */
+}
+#container {
+    /* height: 80.0rem; */
+    /* border: .2rem solid red; */
+    display: grid;
+    grid-template-rows: 10.0rem 35.5rem 10.0rem auto;
+    grid-template-columns: 30.0rem 1fr 1fr 30.0rem ;
+    grid-template-areas:
+        "firstHead firstHead firstHead firstHead"
+        "firstCard firstCard firstCard firstCard"
+        ". secondHead secondHead  ."
+        ". secondCard secondCard .";
+
+}
