@@ -1,1 +1,0 @@
-# magicnotes.github.io
